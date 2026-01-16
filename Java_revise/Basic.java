@@ -94,29 +94,47 @@ public class Basic {
     // System.out.println(marks[i]);}
 
     //storing strings in the array
-    String[] names=new String[5];
-    names[0]="sameer shrinth";
-    names[1]="sumit";
-    names[2]="Pritam";
-    names[3]="Amit";
+    // String[] names=new String[5];
+    // names[0]="sameer shrinth";
+    // names[1]="sumit";
+    // names[2]="Pritam";
+    // names[3]="Amit";
 
-    //displaying the value in the list
-    for(int i=0;i<=names.length-1;i++){
-        System.out.println(names[i]);
-    }
+    // //displaying the value in the list
+    // for(int i=0;i<=names.length-1;i++){
+    //     System.out.println(names[i]);
+    // }
 
     //reversing the values in the list
-    for(int i = 0; i < names.length / 2; i++){
-        String temp = names[i];
-        names[i] = names[names.length - 1 - i];
-        names[names.length - 1 - i] = temp;
-    }   
+    // for(int i = 0; i < names.length / 2; i++){
+    //     String temp = names[i];
+    //     names[i] = names[names.length - 1 - i];
+    //     names[names.length - 1 - i] = temp;
+    // }   
 
-    for(int i=0;i<=names.length-1;i++){
-        System.out.println(names[i]);
+    // for(int i=0;i<=names.length-1;i++){
+    //     System.out.println(names[i]);
+    // }
+
+    //adding the element at the middle index
+    int num=10;
+    int index=0;
+    int[] numbers=new int[4];
+
+    numbers[0]=11;
+    numbers[1]=22;
+    numbers[2]=33;
+
+    int temp=numbers[index];
+    numbers[index]=num;
+    for(int i=index;i<=numbers.length-1;i++){
+        numbers[i+1]=numbers[i];
     }
 
-    
+
+
+
+
 
 }
     
