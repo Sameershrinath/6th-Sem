@@ -116,25 +116,6 @@ public class Basic {
     //     System.out.println(names[i]);
     // }
 
-    //adding the element at the middle index
-    int num=10;
-    int index=0;
-    int[] numbers=new int[4];
-
-    numbers[0]=11;
-    numbers[1]=22;
-    numbers[2]=33;
-
-    int temp=numbers[index];
-    numbers[index]=num;
-    for(int i=index;i<=numbers.length-1;i++){
-        numbers[i+1]=numbers[i];
-    }
-
-
-
-
-
 
 }
     
