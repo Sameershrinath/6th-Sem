@@ -1,1 +1,13 @@
-./sfdx
+.sfdx/
+.sf/
+node_modules/
+dist/
+coverage/
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
