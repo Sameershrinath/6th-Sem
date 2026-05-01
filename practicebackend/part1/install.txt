@@ -1,0 +1,23 @@
+npm init first command
+
+first install the nodemon(for dev),express
+
+then write code
+"
+const express=require("express");
+
+const app=express();
+
+
+app.get("/",(req,res)=>{
+    return res.send("hello from home page");
+});
+
+app.get("/about",(req,res)=>{
+    return res.send("hello from about page");
+});
+
+app.listen(5000,()=>{"server started...."})
+
+
+"
